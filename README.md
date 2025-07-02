@@ -53,8 +53,7 @@ This script will check for required dependencies (build-essential, cmake, libsdl
 If dependencies are missing, it will prompt to install them.
 
 This will create a desktop shortcut for the emulator.
-Upon clicking on it, you will get to choose the directory in which you have saved your ROMs
-You will be prompted to select the ROM and the game will start!
+Upon clicking on it, you will get to choose the directory in which you have saved your ROMs. After this you will be prompted to select the ROM and the game will start!
 
 ## Manual installation:
 
