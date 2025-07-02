@@ -19,11 +19,6 @@
   <br><img src="images/ppu.png" alt="PPU Test - dmg-acid2" width="350"/>
 </p>
 
-- **Memory Banking:** Supports MBC (Memory Bank Controller) logic for ROM and RAM banking (MBC1 and MBC3).
-- **Instruction Decoding:** O(1) instruction lookup using a static array.
-- **Cartridge Support:** Loads ROMs, parses headers, and supports battery-backed RAM for save games.
-- **Save/Load Battery:** Automatically loads and saves battery-backed RAM to disk.
-- **Debug Output:** Prints cartridge metadata and checksum validation on load.
 - **Dynamic Background:** Depending on the game, you might see a custom background in fullscreen! :3
 
 <p align="center">
@@ -31,6 +26,11 @@
   <img src="images/background_2.png" alt="Dynamic Background 2" width="350"/>
 </p>
 
+- **Memory Banking:** Supports MBC (Memory Bank Controller) logic for ROM and RAM banking (MBC1 and MBC3).
+- **Instruction Decoding:** O(1) instruction lookup using a static array.
+- **Cartridge Support:** Loads ROMs, parses headers, and supports battery-backed RAM for save games.
+- **Save/Load Battery:** Automatically loads and saves battery-backed RAM to disk.
+- **Debug Output:** Prints cartridge metadata and checksum validation on load.
 
 ---
 
