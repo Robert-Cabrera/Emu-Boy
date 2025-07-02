@@ -97,9 +97,9 @@ Please ensure you own the rights to any ROMs you use.
 
 
 ## TODO:
-Add audio output
-Improve timing accuracy
-Add support for more cartridge types and peripherals
+- Add audio output
+- Improve timing accuracy
+- Add support for more cartridge types and peripherals
 
 
 ## Disclaimer:
