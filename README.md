@@ -40,8 +40,6 @@
 - CMake (build system)
 - Make
 
-### Installation
-
 ## Automatic installation (recommended):
 
 Run:
