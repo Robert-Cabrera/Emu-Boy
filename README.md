@@ -68,7 +68,6 @@ Run:
 ```./run.sh```
 
 This will generate the build directory if needed, run CMake, compile the project, and launch the emulator.
-You can also launch the emulator from your application menu, thanks to the desktop shortcut created during installation.
 
 ### ROMs:
 
