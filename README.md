@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="images/icon.png" alt="EmuBoy Logo" width="64"/>
-</p>
+# <img src="images/icon.png" alt="EmuBoy Logo" width="80"/> EmuBoy - Game Boy Emulator
+
 
 # EmuBoy - Game Boy Emulator
 
