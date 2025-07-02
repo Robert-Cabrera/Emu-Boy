@@ -9,11 +9,15 @@
 ## Features
 
 - **CPU Emulation:** Implements the Game Boy CPU instruction set with a static instruction lookup table for fast decoding.  
-  <br>_Passing all of the Blargg Test ROMs:_
+<p align="center">
+   <br>_Passing all of the Blargg Test ROMs:_
   <br><img src="images/cpu.png" alt="Blargg CPU Test - All Passed" width="350"/>
+</p>
 
-- **PPU Emulation:** Passes the major PPU hardware tests, including `dmg-acid2`.  
+- **PPU Emulation:** Passes the major PPU hardware tests, including `dmg-acid2`.
+<p align="center">
   <br><img src="images/ppu.png" alt="PPU Test - dmg-acid2" width="350"/>
+</p>
 
 - **Memory Banking:** Supports MBC (Memory Bank Controller) logic for ROM and RAM banking (MBC1 and MBC3).
 - **Instruction Decoding:** O(1) instruction lookup using a static array.
