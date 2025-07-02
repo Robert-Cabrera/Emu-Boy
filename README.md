@@ -6,8 +6,6 @@
 
 ## Features
 
-## Features
-
 - **CPU Emulation:** Implements the Game Boy CPU instruction set with a static instruction lookup table for fast decoding.  
 <p align="center">
    <br>Passing all of the Blargg Test ROMs:
@@ -34,11 +32,13 @@
 
 ---
 
-### Prerequisites
+## Prerequisites
 
 - C++ compiler (tested with g++)
 - CMake (build system)
 - Make
+
+---
 
 ## Automatic installation (recommended):
 
@@ -52,6 +52,8 @@ If dependencies are missing, it will prompt to install them.
 This will create a desktop shortcut for the emulator.
 Upon clicking on it, you will get to choose the directory in which you have saved your ROMs
 You will be prompted to select the ROM and the game will start!
+
+---
 
 ## Manual installation:
 
@@ -73,6 +75,8 @@ You can also launch the emulator from your application menu, thanks to the deskt
 Place your Game Boy .gb ROM files in the roms/ directory.
 Battery-backed saves will be stored in the saves/ directory (automatically managed).
 
+---
+
 ## Uninstall:
 To uninstall the emulator and remove the desktop shortcut:
 
@@ -80,9 +84,13 @@ To uninstall the emulator and remove the desktop shortcut:
 
 You will be prompted to remove the build directory as well.
 
-### License:
+---
+
+## License:
 This project is for educational purposes.
 Please ensure you own the rights to any ROMs you use.
+
+---
 
 ## References & Credits
 - **Nintendo** – for the original Game Boy hardware and documentation
@@ -91,11 +99,14 @@ Please ensure you own the rights to any ROMs you use.
 - [Game Boy Complete Technical Reference (PDF)](https://gekkio.fi/files/gb-docs/gbctr.pdf) – Comprehensive technical manual by Gekkio
 - [Low Level Devel](https://www.youtube.com/@lowleveldevel1712) – Video series on Game Boy emulation and low-level development
 
+---
 
-### TODO:
+## TODO:
 Add audio output
 Improve timing accuracy
 Add support for more cartridge types and peripherals
 
-### Disclaimer:
+---
+
+## Disclaimer:
 This emulator is a hobby project and is not affiliated with or endorsed by Nintendo.
