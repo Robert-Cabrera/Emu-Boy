@@ -1,4 +1,5 @@
-# EmuBoy - Game Boy Emulator
+# <img src="images/icon.png" alt="EmuBoy Logo" width="48" style="vertical-align: middle;"/> EmuBoy - Game Boy Emulator
+
 
 **EmuBoy** is a Game Boy emulator written in C++. It aims to provide accurate emulation of the original Nintendo Game Boy hardware, supporting a variety of ROMs and cartridge types, including battery-backed saves.
 
