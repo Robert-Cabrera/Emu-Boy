@@ -6,12 +6,27 @@
 
 ## Features
 
-- **CPU Emulation:** Implements the Game Boy CPU instruction set with a static instruction lookup table for fast decoding. Passing all of the Blargg Test Roms:
-- **Memory Banking:** Supports MBC (Memory Bank Controller) logic for ROM and RAM banking (MBC1 and MBC3)
+## Features
+
+- **CPU Emulation:** Implements the Game Boy CPU instruction set with a static instruction lookup table for fast decoding.  
+  <br>_Passing all of the Blargg Test ROMs:_
+  <br><img src="images/cpu.png" alt="Blargg CPU Test - All Passed" width="350"/>
+
+- **PPU Emulation:** Passes the major PPU hardware tests, including `dmg-acid2`.  
+  <br><img src="images/ppu.png" alt="PPU Test - dmg-acid2" width="350"/>
+
+- **Memory Banking:** Supports MBC (Memory Bank Controller) logic for ROM and RAM banking (MBC1 and MBC3).
 - **Instruction Decoding:** O(1) instruction lookup using a static array.
+- **Cartridge Support:** Loads ROMs, parses headers, and supports battery-backed RAM for save games.
 - **Save/Load Battery:** Automatically loads and saves battery-backed RAM to disk.
 - **Debug Output:** Prints cartridge metadata and checksum validation on load.
-- **Dynamic Background:** Depending on what game you play you might get a nice background when playing in full screen! c:
+- **Dynamic Background:** Depending on the game, you might see a custom background in fullscreen! :3
+
+<p align="center">
+  <img src="images/background_1.png" alt="Dynamic Background 1" width="350"/>
+  <img src="images/background_2.png" alt="Dynamic Background 2" width="350"/>
+</p>
+
 
 ---
 
