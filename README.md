@@ -1,4 +1,9 @@
-# <img src="images/icon.png" alt="EmuBoy Logo" width="80"/> EmuBoy - Game Boy Emulator
+<table>
+<tr>
+<td><img src="images/icon.png" alt="EmuBoy Logo" width="48"/></td>
+<td><h1>EmuBoy - Game Boy Emulator</h1></td>
+</tr>
+</table>
 
 
 # EmuBoy - Game Boy Emulator
