@@ -43,7 +43,6 @@ Install dependencies:
 ```
 sudo apt-get update
 sudo apt-get install -y build-essential cmake libsdl2-dev libsdl2-ttf-dev libsdl2-image-dev
-
 ```
 Run:
 
@@ -68,12 +67,13 @@ You will be prompted to remove the build directory as well.
 This project is for educational purposes.
 Please ensure you own the rights to any ROMs you use.
 
-### Credits:
-Nintendo 
-PanDocs (https://gbdev.io/pandocs/About.html)
-GBops (https://izik1.github.io/gbops/)
-GameBoy Complete Technical Reference (https://gekkio.fi/files/gb-docs/gbctr.pdf)
-Low Level Devel for his series on GameBoy Emulation (https://www.youtube.com/@lowleveldevel1712)
+## References & Credits
+- **Nintendo** – for the original Game Boy hardware and documentation
+- [PanDocs](https://gbdev.io/pandocs/About.html) – The ultimate open Game Boy technical reference
+- [GBops](https://izik1.github.io/gbops/) – Opcode reference for Game Boy CPU instructions
+- [Game Boy Complete Technical Reference (PDF)](https://gekkio.fi/files/gb-docs/gbctr.pdf) – Comprehensive technical manual by Gekkio
+- [Low Level Devel](https://www.youtube.com/@lowleveldevel1712) – Video series on Game Boy emulation and low-level development
+
 
 ### TODO:
 Add audio output
