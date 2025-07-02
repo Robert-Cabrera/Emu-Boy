@@ -109,4 +109,4 @@ Add support for more cartridge types and peripherals
 ---
 
 ## Disclaimer:
-This emulator is a hobby project and is not affiliated with or endorsed by Nintendo.
+This emulator is a hobby project, not affiliated with or endorsed by Nintendo, it is open source and licensed under the [MIT License]("LICENSE.md").
