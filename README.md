@@ -1,9 +1,8 @@
 <p align="center">
-<table>
-<td><img src="images/icon.png" alt="EmuBoy Logo" width="80"/></td>
-<td><h1>EmuBoy - Game Boy Emulator</h1></td>
-</table>
+  <img src="images/icon.png" alt="EmuBoy Logo" width="80" style="vertical-align: middle;"/>
+  <span style="font-size:2.5em; font-weight:bold; vertical-align: middle;">EmuBoy - Game Boy Emulator</span>
 </p>
+
 
 # EmuBoy - Game Boy Emulator
 
