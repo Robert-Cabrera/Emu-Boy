@@ -24,7 +24,7 @@
   <br><img src="images/ppu.png" alt="PPU Test - dmg-acid2" width="350"/>
 </p>
 
-- **Dynamic Background:** Depending on the game, you might see a custom background in fullscreen! :3
+- **Dynamic Background:** Depending on the game, you might see a custom background in fullscreen! c:
 
 <p align="center">
   <img src="images/background_1.png" alt="Dynamic Background 1" width="350"/>
