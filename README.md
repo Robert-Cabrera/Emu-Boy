@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="images/icon.png" alt="EmuBoy Logo" width="80" style="vertical-align: middle;"/>
-  <span style="font-size:2.5em; font-weight:bold; vertical-align: middle;">EmuBoy - Game Boy Emulator</span>
+  <img src="images/icon.png" alt="EmuBoy Logo" width="190"/>
+  <br>
+  <b><span style="font-size:2em;"></span></b>
 </p>
+
 
 
 # EmuBoy - Game Boy Emulator
 
 
 **EmuBoy** is a Game Boy emulator written in C++. It aims to provide accurate emulation of the original Nintendo Game Boy hardware, supporting a variety of ROMs and cartridge types, including battery-backed saves.
-
----
 
 ## Features
 
@@ -37,15 +37,11 @@
 - **Save/Load Battery:** Automatically loads and saves battery-backed RAM to disk.
 - **Debug Output:** Prints cartridge metadata and checksum validation on load.
 
----
-
 ## Prerequisites
 
 - C++ compiler (tested with g++)
 - CMake (build system)
 - Make
-
----
 
 ## Automatic installation (recommended):
 
@@ -59,8 +55,6 @@ If dependencies are missing, it will prompt to install them.
 This will create a desktop shortcut for the emulator.
 Upon clicking on it, you will get to choose the directory in which you have saved your ROMs
 You will be prompted to select the ROM and the game will start!
-
----
 
 ## Manual installation:
 
@@ -82,7 +76,6 @@ You can also launch the emulator from your application menu, thanks to the deskt
 Place your Game Boy .gb ROM files in the roms/ directory.
 Battery-backed saves will be stored in the saves/ directory (automatically managed).
 
----
 
 ## Uninstall:
 To uninstall the emulator and remove the desktop shortcut:
@@ -91,13 +84,11 @@ To uninstall the emulator and remove the desktop shortcut:
 
 You will be prompted to remove the build directory as well.
 
----
 
 ## License:
 This project is for educational purposes.
 Please ensure you own the rights to any ROMs you use.
 
----
 
 ## References & Credits
 - **Nintendo** – for the original Game Boy hardware and documentation
@@ -106,14 +97,12 @@ Please ensure you own the rights to any ROMs you use.
 - [Game Boy Complete Technical Reference (PDF)](https://gekkio.fi/files/gb-docs/gbctr.pdf) – Comprehensive technical manual by Gekkio
 - [Low Level Devel](https://www.youtube.com/@lowleveldevel1712) – Video series on Game Boy emulation and low-level development
 
----
 
 ## TODO:
 Add audio output
 Improve timing accuracy
 Add support for more cartridge types and peripherals
 
----
 
 ## Disclaimer:
 This emulator is a hobby project, not affiliated with or endorsed by Nintendo, it is open source and licensed under the [MIT License](LICENSE.md).
