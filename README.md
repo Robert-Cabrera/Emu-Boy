@@ -1,6 +1,6 @@
-# emu_boy - Game Boy Emulator
+# EmuBoy - Game Boy Emulator
 
-**emu_boy** is a Game Boy emulator written in C++. It aims to provide accurate emulation of the original Nintendo Game Boy hardware, supporting a variety of ROMs and cartridge types, including battery-backed saves.
+**EmuBoy** is a Game Boy emulator written in C++. It aims to provide accurate emulation of the original Nintendo Game Boy hardware, supporting a variety of ROMs and cartridge types, including battery-backed saves.
 
 ---
 
@@ -109,4 +109,4 @@ Add support for more cartridge types and peripherals
 ---
 
 ## Disclaimer:
-This emulator is a hobby project, not affiliated with or endorsed by Nintendo, it is open source and licensed under the [MIT License]("LICENSE.md").
+This emulator is a hobby project, not affiliated with or endorsed by Nintendo, it is open source and licensed under the [MIT License](LICENSE).
