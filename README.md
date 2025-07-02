@@ -10,7 +10,7 @@
 
 - **CPU Emulation:** Implements the Game Boy CPU instruction set with a static instruction lookup table for fast decoding.  
 <p align="center">
-   <br>_Passing all of the Blargg Test ROMs:_
+   <br>Passing all of the Blargg Test ROMs:
   <br><img src="images/cpu.png" alt="Blargg CPU Test - All Passed" width="350"/>
 </p>
 
