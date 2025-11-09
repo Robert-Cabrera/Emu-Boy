@@ -25,7 +25,7 @@ include_directories(${SDL2_INCLUDE_DIRS} ${SDL2_TTF_INCLUDE_DIRS} ${SDL2_IMAGE_I
 # Link against SDL2 libraries
 target_link_libraries(emu PRIVATE ${SDL2_LIBRARIES} ${SDL2_TTF_LIBRARIES} ${SDL2_IMAGE_LIBRARIES})
 
-# Set the icon (depends on your windowing code, here's a general approach)
+# Set the icon (depends on windowing code, here's a general approach)
 configure_file(assets/icon.png ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
 
 # Custom command for embedding the icon if necessary (depends on your environment)
